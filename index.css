@@ -32,13 +32,12 @@ body {
     font-family: 'Odibee Sans';
     font-size: 60px;
     list-style-type: none;
-    color: blanchedalmond;
+    color: #ffebcd;
     
 }
 
 .project-container {
-    border: 1px solid black;
-    height: 50%;
+    height: 75%;
     background: linear-gradient(0.25turn, #d0f0c0, #a9ba9d, #8f9779);
     display: flex;
     align-items: center;
@@ -49,7 +48,7 @@ body {
 
 .words {
     position: absolute;
-    top: 20px;
+    top: 15px;
     color: #d0f0c0;
     font-size: 0;
     line-height: 1.5;
@@ -104,6 +103,22 @@ body {
     animation-delay: 3.5s;
 }
 
+.project-one {
+    border: 1px solid black;
+    position: absolute;
+    top: 18em;
+    height: 250px;
+}
+
+.project-title {
+    text-align: center;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+}
+
 @media (max-width: 360px) {
     .name {
         text-align: center;
@@ -119,6 +134,10 @@ body {
         font-size: 30px;
         text-align: center;
     }
+
+    .words span {
+        font-size: 3rem;
+    }
 }
 
 @media (max-width: 420px) {
@@ -131,10 +150,60 @@ body {
     .name {
         text-align: center;
     }
+
+    .words span {
+        font-size: 3rem;
+    }
+
+    .words {
+        top: 5px;
+    }
+
+    .project-container {
+        height: 100%;
+    }
+
+    .project-one {
+        top: 3em;
+    }
 }
 
-@media (max-width: 770px) {
+@media (max-width: 736px) {
     .name {
         text-align: center;
     }
+
+    .words span {
+        font-size: 3rem;
+    }
 }
+
+@media (max-width: 812px) {
+    .words span {
+        font-size: 3rem;
+    }
+
+    .name {
+        font-size: 35px;
+    }
+
+    .words {
+        top: 5px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .words span {
+        font-size: 3rem;
+    }
+
+    .project-one {
+        top: 12em;
+    }
+}
+
+/* @media (max-width: 1896px) {
+    .words span {
+        font-size: 3rem;
+    }
+} */
