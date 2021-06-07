@@ -136,6 +136,22 @@ img {
     top: 6em;
 }
 
+.about-me {
+    border: 1px solid black;
+    position: absolute;
+    bottom: 10px;
+}
+
+i {
+    font-size: 6rem;
+}
+
+.title {
+    font-family: 'Odibee sans';
+    font-size: 40px;
+    text-align: center;
+}
+
 @media (max-width: 360px) {
     .name {
         text-align: center;
@@ -157,13 +173,21 @@ img {
     }
 
     .project-one {
-        width: ;
+        width: 350px;
+    }
+
+    i {
+        font-size: 3rem;
     }
 }
 
 @media (max-width: 420px) {
     .roles {
         text-align: center;
+    }
+
+    i {
+        font-size: 3rem;
     }
 }
 
