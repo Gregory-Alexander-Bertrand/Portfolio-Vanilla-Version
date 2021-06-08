@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
 
+
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -40,12 +42,14 @@ body {
 
 .project-container {
     height: 1000px;
+    width: 100%;
     background: linear-gradient(0.25turn, #d0f0c0, #a9ba9d, #8f9779);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     position: relative;
+    border: 1px solid black;
 }
 
 .words {
@@ -137,7 +141,7 @@ img {
 
 .about-me {
     position: absolute;
-    bottom: 10px;
+    bottom: 20px;
 }
 
 .skills {
@@ -196,6 +200,25 @@ h4 {
 }
 
 @media (max-width: 375px) {
+   .hero {
+       height: 30vh;
+   }
+
+   .project-container {
+       position: relative;
+       height: 300px;
+   }
+
+   .project-one {
+       top: 1px;
+       position: absolute;
+       height: 100px;
+   }
+
+   img {
+       display: none;
+   }
+   
     .name {
         font-size: 30px;
     }
@@ -217,6 +240,7 @@ h4 {
         font-size: 3rem;
     }
 
+
 }
 
 @media (max-height: 659px) {
@@ -234,6 +258,14 @@ h4 {
 
     i {
         font-size: 3rem;
+    }
+
+    .project-one {
+        height: 100px;
+    }
+
+    img {
+        display: none;
     }
 }
 
