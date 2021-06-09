@@ -257,6 +257,13 @@ p {
         font-size: 3rem;
     }
 
+    .about-me {
+        bottom: 5%;
+    }
+
+    .contact-information {
+        bottom: 1%;
+    }
 
 }
 
@@ -283,6 +290,14 @@ p {
 
     img {
         display: none;
+    }
+
+    .about-me {
+        bottom: 10%;
+    }
+
+    .contact-information {
+        bottom: 1%;
     }
 }
 
